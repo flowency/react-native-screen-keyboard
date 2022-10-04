@@ -62,6 +62,7 @@ The `<VirtualKeyboard />` uses two arrays to allow you to set keys and define cu
 | keyboard        | array         | Yes       | See VirtualKeyboard.js   | 4 x 3 matrix containing the value for each key. See VirtualKeyboard.js.                     |
 | keyboardFunc    | array         | Yes       | See VirtualKeyboard.js   | 4 x 3 matrix containing custom functions for each key. Pass null for no function.       |
 | keyboardCustomKeyImage | number | Yes       | null                 | Image for the custom key (bottom left key)                                              |
+| keyDisabled     | array         | Yes       | See VirtualKeyboard.js   | 4 x 3 matrix containing the disabled value for each key. See VirtualKeyboard.js.                     |
 | keyboardMessageDisplayTime | number | Yes   | 3000                 | Time in milliseconds for the message dialog to automatically clear.                     |
 | vibration       | bool          | Yes       | false                | Key / Tactile vibration enabled                                                         |
 | keyboardStyle   | object        | Yes       | See VirtualKeyboard.js   | Style applied to the keyboard.                                                          |
