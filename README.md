@@ -40,6 +40,8 @@ The back and custom key will pass a sting, either `"back"` or `"custom"` to the 
 
 The `<VirtualKeyboard />` also has a number of functions which can be triggered through refs.
  
+ - `back()` this will execute the back action to delete one character.
+ - `clearText()` this will clear the keyboard text.
  - `displayMessage(message)` this will create a popup above the
 keyboard displaying the given a message. The style of the popup can be customized through props.
  - `clearMessage()` this will clear the keyboard message dialog.
@@ -64,6 +66,7 @@ The `<VirtualKeyboard />` uses two arrays to allow you to set keys and define cu
 | vibration       | bool          | Yes       | false                | Key / Tactile vibration enabled                                                         |
 | keyboardStyle   | object        | Yes       | See VirtualKeyboard.js   | Style applied to the keyboard.                                                          |
 | keyboardDisabledStyle | object  | Yes       | See VirtualKeyboard.js   | Style applied when the keyboard is disabled.                                            |
+| keyCustomStyle  | array         | Yes       | See VirtualKeyboard.js   | 4 x 3 matrix containing a custom style for each key. Pass null for default style or to use keyStyle as an override.       |
 | keyStyle        | object        | Yes       | See VirtualKeyboard.js   | Style applied to each key on the keyboard.                                              |
 | keyTextStyle    | object        | Yes       | See VirtualKeyboard.js   | Style applied to the text inside each key.                                              |
 | keyImageStyle   | object        | Yes       | See VirtualKeyboard.js   | Style applied to image in a key. If an image is passed.                                 |
