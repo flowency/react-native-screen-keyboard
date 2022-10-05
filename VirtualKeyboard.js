@@ -3,7 +3,7 @@
  * @description Keyboard component with message and interactive keys
  */
 
-import { Image, Platform, StyleSheet, Text, Vibration, View, ViewPropTypes } from "react-native";
+import { Image, Platform, StyleSheet, Text, TextPropTypes, Vibration, View, ViewPropTypes } from "react-native";
 import React, { Component } from "react";
 
 import PropTypes from "prop-types";
@@ -348,7 +348,7 @@ const backAsset = require("./back.png");
      keyboardDisabledStyle: ViewPropTypes.style,
      keyStyle: ViewPropTypes.style,
      keyCustomStyle: PropTypes.array,
-     keyTextStyle: ViewPropTypes.style,
+     keyTextStyle: TextPropTypes.style,
      keyImageStyle: ViewPropTypes.style,
      messageStyle: ViewPropTypes.style,
      messageTextStyle: ViewPropTypes.style
