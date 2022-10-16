@@ -41,7 +41,7 @@ The back and custom key will pass a sting, either `"back"` or `"custom"` to the 
 The `<VirtualKeyboard />` also has a number of functions which can be triggered through refs.
  
  - `back()` this will execute the back action to delete one character.
- - `clearText()` this will clear the keyboard text.
+ - `setText(text)` this will set the keyboard text to the given value.
  - `displayMessage(message)` this will create a popup above the
 keyboard displaying the given a message. The style of the popup can be customized through props.
  - `clearMessage()` this will clear the keyboard message dialog.
